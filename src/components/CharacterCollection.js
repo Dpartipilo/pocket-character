@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import characterData from '../data/characterData';
 
+import CharacterCard from './CharacterCard';
+
+
 class CharacterCollection extends Component {
   constructor(props) {
     super(props);
@@ -39,18 +42,5 @@ class CharacterCollection extends Component {
     )
   }
 }
-
-const CharacterCard = (props) => (
-  <div className="Tile">
-    <div className="avatar-container">
-      Avatar image
-  </div>
-    <div className="character-details">
-      <p>{props.name}</p>
-      <p>Level:{props.level}</p>
-    </div>
-  </div>
-)
-
 
 export default CharacterCollection;
