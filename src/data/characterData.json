@@ -1,0 +1,29 @@
+{
+  "aCharacterTiles": [
+    {
+      "id": "1",
+      "name": "Joe",
+      "characterCards": [
+        {
+          "name": "Joe",
+          "level": "2"
+        },
+        {
+          "name": "Joe",
+          "level": "3"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Diego",
+      "level": "1",
+      "characterCards": [
+        {
+          "name": "Diego",
+          "level": "2"
+        }
+      ]
+    }
+  ]
+}
