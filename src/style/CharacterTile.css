@@ -1,0 +1,34 @@
+.Tile{
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: darkgray;
+  width: 220px;
+  max-width: 220px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px 15px #888888;
+}
+
+.Tile:hover{
+  scale: 1.05;
+  box-shadow: 6px 6px 15px #888888;
+}
+
+.avatar-container{
+  background-color: lightgray;
+  max-width: 90%;
+  max-height: 50%;
+  width: 90%;
+  height: 90%;
+  display: flex;
+}
+
+.character-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
