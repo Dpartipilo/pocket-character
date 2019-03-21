@@ -1,0 +1,8 @@
+.CharacterCollection{
+  margin: 20px 0;
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  padding: 30px;
+  display: flex;
+}
