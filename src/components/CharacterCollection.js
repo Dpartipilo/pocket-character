@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import characterData from '../data/characterData';
 
 import CharacterCard from './CharacterCard';
+import '../style/CharacterCollection.css';
 
 
 class CharacterCollection extends Component {
@@ -34,7 +35,6 @@ class CharacterCollection extends Component {
   render() {
     return (
       <div className="CharacterCollection">
-        Hello characters
         {this.state.aCharacterCards.map((oCharacterCard, i) => (
           <CharacterCard key={i} {...oCharacterCard} />
         ))}

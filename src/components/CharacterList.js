@@ -29,12 +29,10 @@ class CharacterList extends Component {
     console.log(characterData)
     return (
       <div className="CharacterList">
-
         {this.state.aCharacterTiles.map((oCharacterTile, i) => (
           <CharacterTile key={i} {...oCharacterTile} />
         ))}
         <NewCharacter />
-        CharacterList
       </div>
     )
   }

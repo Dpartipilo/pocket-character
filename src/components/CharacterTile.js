@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
+import '../style/CharacterTile.css';
+
 const CharacterTile = (props) => (
-  <Link to={`/clones/${props.id}`}
-    props={props}
-  >
+  <Link to={`/clones/${props.id}`}>
     <div className="Tile">
       <div className="avatar-container">
         Avatar image
