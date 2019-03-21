@@ -6,6 +6,7 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import MyCharacters from '../pages/MyCharacters';
 import CharacterCollection from './CharacterCollection';
+import CharacterProfile from './CharacterProfile';
 
 const Navbar = () => (
   <Router>
@@ -29,7 +30,8 @@ const Navbar = () => (
         <Route path="/" exact component={Home} />
         <Route path="/about/" component={About} />
         <Route path="/myCharacters/" component={MyCharacters} />
-        <Route path={`/clones/:characterId`} component={CharacterCollection} />
+        <Route path="/clones/:characterId" exact component={CharacterCollection} />
+        <Route path="/clones/:characterId/:characterInstanceId/profile" exact component={CharacterProfile} />
       </Switch>
     </div>
   </Router>
